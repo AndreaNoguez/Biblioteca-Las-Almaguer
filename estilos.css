@@ -1,0 +1,44 @@
+header{
+    border: 1px solid #ce4545;
+}
+.titulo{
+    border: 1px solid #77ce45;
+    width: 40%;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: center;/*centra verticalmente*/
+    justify-content: center;/*centra horizontalmente*/
+}
+.imagen{
+    border: 1px solid #45b3ce;
+    width: 30%;
+    min-height: 150px;
+    max-height: 150px;
+    position: relative;
+    left: 40%;
+    bottom: 152px;
+    align-items: center;
+    display: flex;
+    align-items: center;/*centra verticalmente*/
+    justify-content: center;/*centra horizontalmente*/
+}
+.micuenta{
+    border: 1px solid #ce45bc;
+    width: 30%;
+    min-height: 150px;
+    max-height: 150px;
+    position: relative;
+    left: 70%;
+    bottom: 304px;
+    display: flex;
+    align-items: center;/*centra verticalmente*/
+    justify-content: center;/*centra horizontalmente*/
+}
+.menu{
+    border: 1px solid #804b2c;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
