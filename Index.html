@@ -4,25 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Las Almaguer</title>
+    <title>HALONU</title>
+    <link rel="icon" type="image/png" href="Imagenes/logo.png">
+    <!--links de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="titulo">
-            <h1>Las Almaguer</h1>
+            <img src="imagenes/nombre.png" height="100px"/>
         </div>
         <div class="imagen">
-            <img src="mujeres.png" height="150px"/>
+            <img src="imagenes/mujeres.png" height="100px"/>
         </div>
-        <div class="micuenta">
-            <p>Mi cuenta</p>
+        <div class="registrar boton1">
+            <p><a href="registrar_usuario.html">Registrar Usuario</a></p>
         </div>
-        <nav class="menu">
-            <a>Libros</a>
-            <a>Peliculas</a>
-            <a>Discos</a>
-            <a>Juegos de mesa</a>
-        </nav>
+        <div class="iniciasesion boton1">
+            <p><a href="inicia_sesion.html">Inicia Sesión</a></p>
+        </div>
+        <div class="wishlist boton1">
+            <p><a href="inicia_sesion.html">Wishlist</a></p>
+        </div>
     </header>
+    <nav class="menu">
+        <a href="libros.html" target="contenido" class="boton2">Libros</a>
+        <a href="peliculas.html" target="contenido" class="boton2">Peliculas</a>
+        <a class="boton2">Discos</a>
+        <a class="boton2">Juegos de mesa</a>
+    </nav>
+    <iframe src="libros.html" name="contenido" class="frame"></iframe>
+    
 </body>
 </html>
